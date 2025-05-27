@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  php:
+    build: ./php
+    container_name: php
+    volumes:
+      - ./finance-app:/var/www/html
+    environment:
+      - PHP_FPM_LISTEN=9000
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    ports:
+      - "8083:80"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - ./finance-app:/var/www/html
+    depends_on:
+      - php
+
+  mysql:
+    image: mysql:5.7
+    container_name: mysql_db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: finance
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+      - PMA_HOST=mysql_db
+      - PMA_PORT=3306
+      - MYSQL_ROOT_PASSWORD=root
+    ports:
+      - "8084:80"
+    depends_on:
+      - mysql
+
+volumes:
+  mysql_data:
