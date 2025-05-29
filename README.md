@@ -15,7 +15,6 @@ Aplicação Laravel para controle financeiro, configurada com Docker.
 ![Captura de tela 2025-05-27 203941](https://github.com/user-attachments/assets/d2d8e8e2-91bd-4112-9098-a9983d92b1d6)
 ![Captura de tela 2025-05-27 203929](https://github.com/user-attachments/assets/8ab41bfe-ea14-4c65-b872-cf98f6e3f917)
 ![Captura de tela 2025-05-27 204119](https://github.com/user-attachments/assets/0cdfb61e-4280-4b23-9e2e-2e9f8b1fa478)
-![Captura de tela 2025-05-27 204106](https://github.com/user-attachments/assets/7a1a0581-aca9-407a-ae5b-733fa884658e)
 ![Captura de tela 2025-05-27 204051](https://github.com/user-attachments/assets/aacdabfc-9bfd-44f5-aef9-c9fdb3ca4260)
 ![Captura de tela 2025-05-27 204041](https://github.com/user-attachments/assets/da443ec2-20d6-475c-9bc3-61938049940a)
 ![Captura de tela 2025-05-27 204029](https://github.com/user-attachments/assets/b5ad4310-6a7e-4d1c-83cb-0e1956836ac9)
