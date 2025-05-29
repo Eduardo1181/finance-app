@@ -11,7 +11,7 @@ Aplicação Laravel para controle financeiro, configurada com Docker.
 - phpMyAdmin
 - Docker e Docker Compose
 
-##screan shots do sistema
+## Screenshots shots do sistema
 ![Captura de tela 2025-05-27 203941](https://github.com/user-attachments/assets/d2d8e8e2-91bd-4112-9098-a9983d92b1d6)
 ![Captura de tela 2025-05-27 203929](https://github.com/user-attachments/assets/8ab41bfe-ea14-4c65-b872-cf98f6e3f917)
 ![Captura de tela 2025-05-27 204119](https://github.com/user-attachments/assets/0cdfb61e-4280-4b23-9e2e-2e9f8b1fa478)
